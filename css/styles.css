@@ -96,6 +96,11 @@ h1, h2, h3, h4, h5, h6 p{
 .nav-link {
     padding: 24px 0;
     display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 
 }
 .nav-link:hover,
@@ -108,14 +113,14 @@ h1, h2, h3, h4, h5, h6 p{
 /* #region main */
 .baner{
     background: #2e2f42;
+    padding: 188px 0;
 
 }
 .baner-container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 600px;
-
+    
 }
 .heading{
     font-weight: 700;
@@ -124,8 +129,8 @@ h1, h2, h3, h4, h5, h6 p{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin-bottom: 48px;
-    padding: 188px 0;
+    margin: 0px auto 48px;
+    max-width: 496px
 }
 .baner-button{
     background: #4d5ae5;
