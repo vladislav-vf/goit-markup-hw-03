@@ -7,12 +7,34 @@ body{
 ul, ol{
     list-style-type: none ;
     margin: 0;
+    padding: 0;
 } 
 a{
     text-decoration: none;
 }
+img{
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 p{
+    margin: 0;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .container{
-    width: 1158px;
+    max-width: 1158px;
+    padding: 0 15px ;
+    margin: 0 auto;
 }
  
 /* #region header */
@@ -29,14 +51,52 @@ a{
 .header-logo .logo-part {
     color: #2e2f42;
 }
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc
+
+}
+.header-container {
+    display: flex;
+    align-items: center;
+
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+
+}
 .address {
     font-style: normal;
+    margin-left: auto
+    
+}
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
 }
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.nav-list {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-link {
+    padding: 24px 0;
+    display: block;
+
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -48,23 +108,38 @@ a{
 /* #region main */
 .baner{
     background: #2e2f42;
+
+}
+.baner-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 600px;
+
 }
 .heading{
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
+    padding: 188px 0;
 }
 .baner-button{
-        background: #4d5ae5;
+    background: #4d5ae5;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #fff;
-        cursor: pointer
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    min-width: 169px;
+    display: block;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .baner-button:focus,.baner-button:hover {
     background:#404bbf;
