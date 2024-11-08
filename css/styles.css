@@ -257,8 +257,7 @@ p{
 /* #endregion */
 /* #region footer */
 .footer-container {
-    padding: 100px 0;
-
+    
 }
 .logo-part {
     color: #f4f4fd;;
@@ -269,6 +268,7 @@ p{
 }
 .footer{
     background: #2e2f42;
+    padding: 100px 0;
 }
 .footer-text{
     font-weight: 400;
