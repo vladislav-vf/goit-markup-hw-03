@@ -170,6 +170,7 @@ h1, h2, h3, h4, h5, h6 p{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 
 }
 .section-subtitle{
@@ -201,10 +202,13 @@ h1, h2, h3, h4, h5, h6 p{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 .team-list {
-
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 .team-text{
     font-weight: 400;
@@ -216,6 +220,9 @@ h1, h2, h3, h4, h5, h6 p{
 }
 .team-item {
     background-color: #fff;
+}
+.card-text {
+    padding: 32px 0;
 }
 .portfolio {
     padding: 120px 0;
