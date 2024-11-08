@@ -149,6 +149,19 @@ h1, h2, h3, h4, h5, h6 p{
 .baner-button:focus,.baner-button:hover {
     background:#404bbf;
 }
+.feature {
+    padding: 120px 0;
+
+}
+.feature-container {}
+.feature-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -165,6 +178,7 @@ h1, h2, h3, h4, h5, h6 p{
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 .section-text{
     font-weight: 400;
@@ -174,7 +188,11 @@ h1, h2, h3, h4, h5, h6 p{
         color: #434455;
 }
 .team{
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.team-container {
+
 }
 .team-title{
     font-weight: 500;
@@ -183,6 +201,9 @@ h1, h2, h3, h4, h5, h6 p{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+
+}
+.team-list {
 
 }
 .team-text{
@@ -196,9 +217,19 @@ h1, h2, h3, h4, h5, h6 p{
 .team-item {
     background-color: #fff;
 }
+.portfolio {
+    padding: 120px 0;
+
+}
+.portfolio-container {
+
+}
 
 /* #endregion */
 /* #region footer */
+.footer-container {
+
+}
 .footer-logo .logo-part {
     color: #f4f4fd;;
 }
